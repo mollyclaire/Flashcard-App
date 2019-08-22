@@ -1,0 +1,16 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "question": "What is a callback?",
+            "answer": "A callback is a function that gets passed into another function as an argument where it is executed when the parent function wants it to be executed. Callbacks are essential to async programming, because they tell a function what to do once it's done with a task."
+        
+        },
+        {
+            "id": 2,
+            "question": "What is a asyncronous JavaScript?",
+            "answer": "Step two will be performed even if step one isn't finished. Async programming basically allows other operations to continue before one operation has completed (aka, retrieving data from a database."
+        
+        }
+    ]
+}
