@@ -21,3 +21,21 @@
     transform: rotateY(180deg);
     transition: all 0.4s ease-in-out;
 }
+ 
+.card .front {
+    height: 400px;
+    width: 400px;
+    backface-visibility: hidden;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    background-color: aliceblue; 
+}
+
+.card .back {
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    transform: rotateY(180deg);
+    background-color: aliceblue;
+}
