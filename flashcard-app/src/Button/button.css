@@ -1,0 +1,9 @@
+.buttonContainer {
+    margin: 4rem;
+}
+
+.btn {
+    padding: .5rem;
+    width: 10rem;
+    background-color: rosybrown;
+}

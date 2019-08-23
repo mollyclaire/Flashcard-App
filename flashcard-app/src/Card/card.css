@@ -1,7 +1,7 @@
 .card-container {
     cursor: pointer;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     perspective: 800px;
     position: relative;
     margin: auto;
@@ -9,33 +9,43 @@
 }
 
 .card {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     position: absolute;
-    border: 1px solid darkred;
+    border: 1px solid aliceblue;
     transform-style: preserve-3d;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    margin-top: 2rem;
 }
 
 .card:hover {
     transform: rotateY(180deg);
-    transition: all 0.4s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
  
 .card .front {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     backface-visibility: hidden;
     position: absolute;
     overflow: hidden;
     text-align: center;
-    background-color: aliceblue; 
+    background-color:  lightgray;
 }
 
 .card .back {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     text-align: center;
+    backface-visibility: hidden;
     transform: rotateY(180deg);
-    background-color: aliceblue;
+    background-color: lightgray;
+}
+
+.question {
+    padding: 2rem;
+}
+
+.answer {
+    padding: 2rem;
 }
