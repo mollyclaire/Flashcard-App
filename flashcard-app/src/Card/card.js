@@ -1,6 +1,9 @@
 import React from "react";
 import "./card.css";
 
+// In App.js, I will pass Card a piece of data that represents an indiviual card 
+// (that I will get back from Firebase). The data that I will pass the card will be on props. 
+
 const Card = (props) => (
     <div className="card-container">
         <div className="card">

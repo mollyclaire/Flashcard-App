@@ -24,6 +24,7 @@ class App extends Component {
 }
 
   componentDidMount() {
+    // currentCards is an array
     const currentCards = this.state.cards;
     this.database.on("child_added", snap => {
       currentCards.push({
@@ -38,6 +39,8 @@ class App extends Component {
     })
   }
 
+  // This method returns a random number between 0 and the number of current cards in the array. 
+  // The number is returned as the index of the currentCards array and set in the variable "card".
   getRandomCard(currentCards) {
     var card = currentCards[Math.floor(Math.random() * currentCards.length)]
     return (card);
@@ -54,6 +57,8 @@ class App extends Component {
     return (
       <div className="App">
         <Card 
+        // A random card is drawn from our array of currentCards (currentCard),
+        // and the property is pulled off of that and passed onto the Card component.
         question={this.state.currentCard.question}
         answer={this.state.currentCard.answer}
         />

@@ -8,8 +8,67 @@
         },
         {
             "id": 2,
-            "question": "What is a asyncronous JavaScript?",
-            "answer": "Step two will be performed even if step one isn't finished. Async programming basically allows other operations to continue before one operation has completed (aka, retrieving data from a database."
+            "question": "What is asyncronous JavaScript?",
+            "answer": "Step two will be performed even if step one isn't finished. Async programming basically allows other operations to continue before one operation has completed (aka, retrieving data from a database)."
+        
+        },
+        {
+            "id": 3,
+            "question": "What is an API?",
+            "answer": "Application Programming Interface. An API allows applications to communicate with one another."
+        
+        },
+        {
+            "id": 4,
+            "question": "Explain client-server relationship.",
+            "answer": "The client (or browser) makes a request, and the request is received by the server. The server may have to get something from a database, but basically it returns the user back with some sort of information/resource."
+        
+        },
+        {
+            "id": 5,
+            "question": "What are some popular jQuery methods?",
+            "answer": ".attr | .addClass | .val | .prop | .text | .append | .html | .click(function()... "
+        
+        },
+        {
+            "id": 6,
+            "question": "What is document.ready()?",
+            "answer": "This method offers a way to run JavaScript code after the DOM is fully loaded and safe to manipulate. All jQuery events/functions should occur at this point."
+        
+        },
+        {
+            "id": 7,
+            "question": "What is the difference between library and framework?",
+            "answer": "Frameworks dictate the structure of a project, while libraries can be used throughout as building blocks. Popular frameworks are Ruby on Rails, Django, Angular, Express. Popular libraries include React, Axios, and jQuery."
+        
+        },
+        {
+            "id": 8,
+            "question": "What is Agile?",
+            "answer": "Agile is an approach/mindset. It is iterative, meaning that it's done in pieces (sprints). Each sprint builds and improves off lessons from previous sprints. Scrum is a workflow framework made up of sprints and reviews used to promote Agile project management."
+        
+        },
+        {
+            "id": 9,
+            "question": "What is an object?",
+            "answer": "All JavaScript values, except primitives (string, undefined, null, Boolean, number) are objects. Objects are technically varibales, but they can contain many values. Basically, objects are just collections of named values."
+        
+        },
+        {
+            "id": 10,
+            "question": "What is a function?",
+            "answer": "A block of reusable code that performs a single action."
+        
+        },
+        {
+            "id": 11,
+            "question": "Explain object-oriented programming.",
+            "answer": "OOP groups related variables and functions that operate on them into objects (encapsulation)."
+        
+        },{
+            "id": 12,
+            "question": "What is a CDN?",
+            "answer": "Content Delivery Network. CDNs put web content closer to the user, which means faster load times. A website is hosted in a data center. With CDN, one has access to a global network of servers that host content physically closer to visitors."
         
         }
     ]
