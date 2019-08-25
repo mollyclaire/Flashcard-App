@@ -30,7 +30,8 @@
     position: absolute;
     overflow: hidden;
     text-align: center;
-    background-color:  lightgray;
+    background-color: #0099CC;
+    color: white;
 }
 
 .card .back {
@@ -39,7 +40,8 @@
     text-align: center;
     backface-visibility: hidden;
     transform: rotateY(180deg);
-    background-color: lightgray;
+    background-color: #0099CC;
+    color: white;
 }
 
 .question {
