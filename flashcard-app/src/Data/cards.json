@@ -65,11 +65,65 @@
             "question": "Explain object-oriented programming.",
             "answer": "OOP groups related variables and functions that operate on them into objects (encapsulation)."
         
-        },{
+        },
+        {
             "id": 12,
             "question": "What is a CDN?",
             "answer": "Content Delivery Network. CDNs put web content closer to the user, which means faster load times. A website is hosted in a data center. With CDN, one has access to a global network of servers that host content physically closer to visitors."
         
+        },
+        {
+            "id": 13,
+            "question": "What does every class component (React) need?",
+            "answer": "A class component needs at least one method -- the render method. Code that determines the display logic (what exact is going to show up on the page or what the style will be) should go right after the render method and before the return."
+        
+        },
+        {
+            "id": 14,
+            "question": "What is important to remember when passing props through a class component (React)?",
+            "answer": "Use 'this.props'"
+        
+        },
+        {
+            "id": 15,
+            "question": "What is state (React)?",
+            "answer": "State is the data that a component maintains. This is distinct from props, which cannot be changed by the component receiving the props. Props are immutable or unchangeable. State must be a part of a class component (not functional). State will always be an object."
+        
+        },
+        {
+            "id": 16,
+            "question": "How do you write a ternary operator?",
+            "answer": "condition ? statement if true : statement if false"
+        },
+        {
+            "id": 17,
+            "question": "What is a RESTful API?",
+            "answer": "REST is an acronym for Representational State Transfer. The six constraints that define it are: uniform interface, stateless, cacheable, client-server, layered system. RESTful applications use HTTP requests to perform four operations termed as CRUD (C: create, R: read, U: update, and D: delete). Create and/or update is used to post data, get for reading/listing data, and delete to remove data."
+        },
+        {
+            "id": 18,
+            "question": "What is SaaS",
+            "answer": "SaaS stands for 'Software as a Service', and it's basically a means of describing a service offered to businesses in which software is distributed remotely from one business, or 'service provider' to another business. The software is delivered over the internet directly to the users - and the company simply pays their bill at the end of the month. Similar to how a phone bill comes to your home each month, companies pay for services that help them keep track of all their customer records, accounting, service calls, and more."
+        },
+        {
+            "id": 19,
+            "question": "What is the DOM?",
+            "answer": "The DOM (Document Object Model) is an interface that represents how your HTML and XML documents are read by the browser. It allows a language (JavaScript) to manipulate, structure, and style your website. After the browser reads your HTML document, it creates a representational tree called the Document Object Model and defines how that tree can be accessed."
+        },
+        {
+            "id": 20,
+            "question": "What is a promise?",
+            "answer": "With a promise, instead of bundling all dependencies into one code block and sending the entire thing off to the browser, we’re able to separate them out. We can send an asynchronous callback to the browser and use .then() to hold all other dependencies aside."
+        },
+        {
+            "id": 21,
+            "question": "What is Webpack?",
+            "answer": "Webpack is a static module bundler. It was created to help reduce the overall size of an application and also help browers interpret code."
+        },
+        {
+            "id": 22,
+            "question": "What is TypeScript?",
+            "answer": "TypeScript is basically a superset of JavaScript (created by Microsoft)."
         }
     ]
 }
